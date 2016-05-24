@@ -1,8 +1,17 @@
+html {
+  height: 100%;
+}
 body {
   background: linear-gradient(orange, pink);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+  margin: 0;
 }
 
 h1 {
+  margin-top: 13px;
+  text-align: center;
   font-family: fantasy;
   color: navy;
   font-size: 50px;
@@ -10,23 +19,33 @@ h1 {
 }
 
 h2 {
-  font-family: fantasy;
-  font-size: 30px;
-  color: #6600ff;
+  margin-top: -30px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 28px;
+  color: navy;
 }
 
 h3 {
   font-family: fantasy;
   color: #4700b3;
+  text-align: center;
 }
 
 ul {
+  display:-moz-inline-stack;
+  display:inline-block;
+  zoom:1;
+  display:inline;
+  text-align: center;
   font-family: fantasy;
   line-height: 20px;
   color: #ff3399;
 }
 
 p {
+  text-align: center;
   font-family: fantasy;
   font-size: 20px;
   color: #ff3399;
@@ -40,4 +59,9 @@ a:hover {
   font-size: 30px;
   font-weight: bolder;
   color: #ff3399;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
 }
