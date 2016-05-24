@@ -2,11 +2,14 @@
 
 ### A website for luxury travel, May 24th, 2016
 
+## Authors
+Leah Nelson and Julia Dickey
+
 ## Description
 A simple website for LNJD resort.
 
 ## Setup
-1. Open in browser
+1. [Open](http://juliadickey.github.io/Resort/) in browser
 2. View site
 
 ## Support and Contact Details

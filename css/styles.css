@@ -1,6 +1,7 @@
 html {
   height: 100%;
 }
+
 body {
   background: linear-gradient(orange, pink);
   background-repeat: no-repeat;
@@ -35,6 +36,13 @@ h3 {
   margin-bottom: -10px;
 }
 
+p {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 20px;
+  color: #ff3399;
+}
+
 ul {
   display:-moz-inline-stack;
   display:inline-block;
@@ -47,11 +55,9 @@ ul {
   font-size: 20px;
 }
 
-p {
-  text-align: center;
-  font-family: fantasy;
-  font-size: 20px;
-  color: #ff3399;
+img {
+  display: block;
+  margin: 0 auto;
 }
 
 a:link {
@@ -62,9 +68,4 @@ a:hover {
   font-size: 30px;
   font-weight: bolder;
   color: #ff3399;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
 }
