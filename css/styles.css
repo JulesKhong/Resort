@@ -1,8 +1,42 @@
 body {
-  background-color: lightblue;
-  font-family: fantasy;
+  background: linear-gradient(orange, pink);
 }
 
 h1 {
+  font-family: fantasy;
+  color: navy;
+  font-size: 50px;
   font-weight: bold;
+}
+
+h2 {
+  font-family: fantasy;
+  font-size: 30px;
+  color: #6600ff;
+}
+
+h3 {
+  font-family: fantasy;
+  color: #4700b3;
+}
+
+ul {
+  font-family: fantasy;
+  line-height: 20px;
+  color: #ff3399;
+}
+p {
+  font-family: fantasy;
+  font-size: 20px;
+  color: #ff3399;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #ff3399;
 }
